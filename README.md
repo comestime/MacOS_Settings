@@ -11,4 +11,4 @@ implement auto-completion and prompt settings in git, sourced by .bash_profile
 basic settings for vim
 
 ## set_vim.zip
-provides syntax highlighting for various of languages
+provides syntax highlighting for various languages
