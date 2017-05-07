@@ -15,8 +15,8 @@ export PATH="/Users/comestime/anaconda/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$S
 
 # config git
 git config --global color.ui auto
-git config --global --unset-all core.editor
-git config --unset-all core.editor
+# git config --global --unset-all core.editor
+# git config --unset-all core.editor
 git config --global core.editor "/Applications/MacVim.app/Contents/MacOS/Vim"
 git config --global credential.helper osxkeychain
 # Enable tab completion
