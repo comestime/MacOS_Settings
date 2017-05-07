@@ -9,8 +9,9 @@ PS1="[$LOGNAME @ \W]: "
 
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"
 export HADOOP_HOME="/Library/Hadoop/hadoop-2.8.0"
+export SPARK_HOME="/Library/spark-2.1.1-bin-hadoop2.7"
 # added by Anaconda2 4.1.1 installer
-export PATH="/Users/comestime/anaconda/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH"
+export PATH="/Users/comestime/anaconda/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$SPARK_HOME/bin:$PATH"
 
 # config git
 git config --global color.ui auto
