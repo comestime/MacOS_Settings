@@ -1,0 +1,8 @@
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
+[core]
+	editor = /Applications/MacVim.app/Contents/MacOS/Vim
+[user]
+	name = comestime
