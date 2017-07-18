@@ -28,6 +28,7 @@ git config --global color.ui auto
 git config --global core.editor "/Applications/MacVim.app/Contents/MacOS/Vim"
 git config --global credential.helper osxkeychain
 git config --global user.name "comestime"
+git config --global user.email "comestime@gmail.com"
 # Enable tab completion
 source ~/git-completion.bash
 # colors!
