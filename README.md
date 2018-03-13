@@ -12,3 +12,6 @@ basic settings for vim
 
 ## set_vim.zip
 provides syntax highlighting for various languages
+
+## set up auto-verilog
+copy .emacs to home directory, and copy Verilog-mode.el to ~/.emacs.d (if no such directory, make it)
