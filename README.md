@@ -15,3 +15,6 @@ provides syntax highlighting for various languages
 
 ## set up auto-verilog
 copy .emacs to home directory, and copy Verilog-mode.el to ~/.emacs.d (if no such directory, make it)
+
+## .py[2-3]_kernel
+create new python 2/3 environments; activate the environment and deactivate environment
