@@ -17,7 +17,7 @@
 (defun append-path ( my-path )
 (setq load-path (append load-path (list (expand-file-name my-path)))))
 ;; Look first in the directory ~/elisp for elisp files
-(prepend-path "~/elisp")
+(prepend-path "~/.emacs.d")
 ;; Load verilog mode only when needed
 (autoload 'verilog-mode "verilog-mode" "Verilog mode" t )
 ;; Any files that end in .v, .dv or .sv should be in verilog mode
