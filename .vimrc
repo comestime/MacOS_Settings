@@ -19,6 +19,9 @@ set tabstop=4
 " number of spaces to use for each step of (auto)indent
 set shiftwidth=4
 
+" make tab key insert spaces instead of tab characters
+set expandtab
+
 " when a brancket is inserted, briefly jump to the matching one
 " the jump is only done if the match can be seen on the screen
 set showmatch
