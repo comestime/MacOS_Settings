@@ -7,6 +7,9 @@ bash settings in home directory
 ## git-completion.bash & git-prompt.sh
 implement auto-completion and prompt settings in git, sourced by .bash_profile
 
+## .gitconfig
+my git configrations
+
 ## .vimrc
 basic settings for vim
 
