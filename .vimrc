@@ -2,7 +2,7 @@
 :colo evening
 
 " enable syntax highlighting
-syntax on
+:syntax on
 
 " highlight matching search strings
 set hlsearch
@@ -26,6 +26,10 @@ set expandtab
 " the jump is only done if the match can be seen on the screen
 set showmatch
 
+" make the backspace work like in most other programs
+“ otherwise it may not delete things
+set backspace=indent,eol,start
+
 " set folded code blocks
 " set foldenable
 " set foldnestmax=1
@@ -33,10 +37,3 @@ set showmatch
 
 " set indenting lines
 " se list lcs=tab:\|\ 
-
-" turn on syntax highlighting
-:syntax on
-
-" make the backspace work like in most other programs
-“ otherwise it may not delete things
-set backspace=indent,eol,start
