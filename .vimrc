@@ -34,3 +34,9 @@ set showmatch
 " set indenting lines
 " se list lcs=tab:\|\ 
 
+" turn on syntax highlighting
+:syntax on
+
+" make the backspace work like in most other programs
+“ otherwise it may not delete things
+set backspace=indent,eol,start
