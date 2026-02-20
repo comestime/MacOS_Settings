@@ -1,25 +1,8 @@
-alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 alias ll='ls -l'
 alias la='ls -a'
-alias matlab='/Applications/MATLAB_R2013a.app/Contents/MacOS/StartMATLAB'
-alias py2_kernel='source ~/.py2_kernel/bin/activate'
-alias py3_kernel='source ~/.py3_kernel/bin/activate'
+alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
 PS1="[$LOGNAME @ \W]: "
-
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"
-export HADOOP_HOME="/Library/Hadoop/hadoop-2.8.0"
-export SPARK_HOME="/Library/spark-2.1.1-bin-hadoop2.7"
-export KAFKA_HOME="/Library/kafka_2.11-0.10.2.0"
-export MAVEN_HOME="/Library/apache-maven-3.5.0"
-export HBASE_HOME="/Library/hbase-1.2.6"
-# added by Anaconda2 4.1.1 installer
-export PATH="/Users/comestime/anaconda/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$SPARK_HOME/bin:$KAFKA_HOME/bin:$MAVEN_HOME/bin:$HBASE_HOME/bin:$PATH"
-
-# config pyspark with ipython notebook
-# pyspark will invoke spark in ipython notebook
-export PYSPARK_DRIVER_PYTHON=ipython
-export PYSPARK_DRIVER_PYTHON_OPTS=notebook
 
 # config git
 git config --global color.ui auto
